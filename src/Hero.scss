@@ -1,0 +1,37 @@
+.hero {
+  width: 100%;
+  height: 455px;
+  background-image: url("../src/assets/seller-promo.jpg");
+  background-position: 50%;
+  background-size: cover;
+  position: relative;
+
+  &-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 360px;
+    height: 220px;
+    background-color: white;
+    padding: 25px;
+    position: absolute;
+    top: 75px;
+    border-radius: 3px;
+    box-shadow: 0 0 2px hsla(0, 0%, 7%, 0.24);
+
+    h1 {
+      font-size: 2.4rem;
+    }
+
+    button {
+      margin-top: 32px;
+      font-size: 16px;
+      width: 187px;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      background-color: #2cb1ba;
+      color: white;
+    }
+  }
+}

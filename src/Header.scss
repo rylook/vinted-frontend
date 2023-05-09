@@ -1,0 +1,44 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+
+  & img {
+    height: 40px;
+  }
+
+  & input {
+    background-color: #f5f6f7;
+    width: 590px;
+    height: 37px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    padding-left: 40px;
+  }
+
+  & .header-nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  & button {
+    width: 115px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid #2cb1ba;
+
+    &:not(:last-child) {
+      color: #2cb1ba;
+      background: none;
+    }
+    &:last-child {
+      margin-left: 20px;
+      background-color: #2cb1ba;
+      color: white;
+    }
+  }
+}
